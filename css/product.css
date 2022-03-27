@@ -224,5 +224,47 @@ body{
     column-gap: 35px;
     justify-content: center;
   }
-
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%; 
+}
+label.logo{
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav .main-list{
+  float: right;
+  margin-right: 20px;
+}
+nav .main-list li{
+  display: inline-block;
+  line-height: 30px;
+  /* margin: 50px 0; */
+  top: 2px;
+}
+nav .main-list li a{
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
   
