@@ -6,6 +6,10 @@ body{
     text-align: center;
     color: white;
   }
+.container img{
+  height:12rem;
+  width:5rem;
+}
   
   .bottom-left {
     position: absolute;
